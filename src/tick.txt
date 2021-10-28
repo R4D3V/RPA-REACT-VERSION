@@ -1,0 +1,23 @@
+import { useState, useEffect } from 'react';
+import './App.css';
+
+function App() {
+	const [seconds, setseconds] = useState(0);
+
+	function tick() {
+		setseconds(prev => prev + 1);
+	}
+
+	useEffect(() => {
+		setInterval(() => {
+			tick();
+		}, 1000);
+	}, [seconds]);
+	return (
+		<div className='App'>
+			<h1>Seconds are: {seconds}</h1>
+		</div>
+	);
+}
+
+export default App;
