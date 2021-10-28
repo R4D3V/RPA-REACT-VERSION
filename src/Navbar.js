@@ -9,9 +9,6 @@ const Navbar = () => {
 				</h1>
 				<nav>
 					<li>
-						<a href='/'>Home</a>
-					</li>
-					<li>
 						<a href='/aboutus'>
 							About <span className='clear'>US</span>{' '}
 						</a>
