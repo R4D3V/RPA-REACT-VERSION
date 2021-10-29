@@ -11,7 +11,11 @@ const Main = () => {
 				dolores, eligendi ipsum unde pariatur vel, quaerat iure inventore nulla
 				beatae dolorum excepturi earum placeat modi quo consequatur fugit omnis
 				sint. Magni, facere aspernatur.
-			</p>
+			</p><br> <br> <br>
+			<h3>
+				Here we do music 
+				production video editing and promotion
+			</h3>
 		</div>
 	);
 };
